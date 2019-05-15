@@ -5,6 +5,9 @@ require_relative './exercise_3'
 require_relative './exercise_4'
 require_relative './exercise_5'
 require_relative './exercise_6'
+require_relative '../employee'
+require_relative '../store'
+
 
 puts "Exercise 7"
 puts "----------"

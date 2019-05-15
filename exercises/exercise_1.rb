@@ -5,15 +5,6 @@ puts "----------"
 
 # Your code goes below here ...
 
-class Store < ActiveRecord::Base
-  has_many :employees
-
-end
-class Employees < ActiveRecord::Base
-  belongs_to :store
-
-end
-
 s1 = Store.new(name: 'Burnaby', annual_revenue: '300000', mens_apparel:true, womens_apparel: true)
 s1.save # <= INSERT sql
 
